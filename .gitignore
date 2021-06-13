@@ -4,3 +4,5 @@ node_modules
 #Ignore files related to API keys
 .env
 
+#ignore my local package-lock.json
+../package-lock.json

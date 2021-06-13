@@ -1,5 +1,10 @@
+/*
+User:-
+  The basic data model that describes the attributes
+  a table holds
 
-module.exports = (sequelize, Sequelize) => {
+*/
+const userModel=(sequelize, Sequelize) => {
   const User = sequelize.define("users", {
     name: {
       type: Sequelize.STRING,
@@ -13,7 +18,9 @@ module.exports = (sequelize, Sequelize) => {
       type: Sequelize.INTEGER,
     },
   },{});
+  return User;
+}
+module.exports = userModel;
 
-   return User;
-};
+  
 

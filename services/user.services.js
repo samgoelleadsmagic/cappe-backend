@@ -1,3 +1,12 @@
+/*
+
+User Services
+
+    User Services tell the 
+
+
+*/
+
 const db = require('../models/index');
 db.sequelize.sync();
 const User = db.user;

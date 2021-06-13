@@ -1,3 +1,11 @@
+/* 
+Controller
+      The responsibility of a controller is to actually interact with the database and commit changes to it.
+
+*/
+
+
+
 const UserService = require('../services/user.services');
 
 module.exports = class Users{
